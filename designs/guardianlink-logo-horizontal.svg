@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 120" width="600" height="120">
+  <defs>
+    <linearGradient id="shield-grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A56DB"/>
+      <stop offset="100%" stop-color="#1E40AF"/>
+    </linearGradient>
+  </defs>
+  <!-- Shield icon (scaled down) -->
+  <g transform="translate(10, 10) scale(0.75)">
+    <path d="M66 8 L120 28 L120 92 C120 152 96 188 66 208 C36 188 12 152 12 92 L12 28 Z"
+          fill="url(#shield-grad2)" stroke="#1E293B" stroke-width="3"/>
+    <g fill="none" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M46 108 C46 78, 62 66, 78 66 C88 66, 94 70, 98 78"/>
+      <path d="M98 78 L98 98 L80 98"/>
+      <path d="M46 108 C46 138, 62 154, 78 154 C94 154, 98 136, 98 128"/>
+      <circle cx="52" cy="154" r="10"/>
+    </g>
+    <g stroke="#16A34A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <path d="M49 155 L53 159 L61 149"/>
+    </g>
+  </g>
+  <!-- "Guardian" text -->
+  <text x="120" y="75" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="48" font-weight="500" fill="#1E293B" letter-spacing="-1">Guardian</text>
+  <!-- "Link" text with link accent -->
+  <text x="330" y="75" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="48" font-weight="700" fill="#1A56DB" letter-spacing="-1">Link</text>
+</svg>
